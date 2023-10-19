@@ -1,23 +1,20 @@
-#This program guesses the randomnly generated number
-
-
 import random
 
 def guess():
-    ''' This function guesses the randomnly generated number '''
+    ''' This function guesses the randomly generated number '''
     randomNumber = random.randint(0, 21)
-    cnt = 0
+    cnt = 0 
 
-    while True
-        count += 1
-        number = (input('Enter the number between 0 to 20: '))
-        if number < randumber:
+    while True:
+        cnt += 1 
+        number = int(input('Enter the number between 0 to 20: '))
+        if number < randomNumber:
             print('Too small')
         elif number > randomNumber:
             print('Too large')
         else:
-            print('You have got it in', count, 'tries')
+            print('You have got it in', cnt, 'tries')
             break
 
-if __name__ == '__m
-    
+if __name__ == '__main__':
+    guess()
