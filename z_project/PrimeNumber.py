@@ -1,3 +1,4 @@
+
 def checkPrime(number):
     '''This function checks for prime number'''
     isPrime = False
