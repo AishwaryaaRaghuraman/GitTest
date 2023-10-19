@@ -1,6 +1,6 @@
 #This program calculates the LCM of the two numbers entered by the user
 
-def LCM(number1, number2):
+def LCM(number1, num
     '''This function calculates LCM of two numbers inputed by the user'''
     maximum = max(number1, number2)
     i = maximum
@@ -8,11 +8,11 @@ def LCM(number1, number2):
         if (i % number1 == 0  and i % number2 == 0):
             lcm = i
             break
-        i += maximum
+        i  mamum
 
-    return lcm
+    return
 
-if __name__ == '__main__':
+if __name__ ==
     userInput1 = int(input('Enter first number: '))
-    userInput2 = int(input('Enter second number: '))
+    userInput2 = int(ier second number: '))
     print('LCM of {} and {} is {}'.format( userInput1, userInput2, LCM(userInput1, userInput2)))
