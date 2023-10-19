@@ -1,4 +1,3 @@
-#This program checks whether the entered number is prime or not
 
 def checkPrime(number):
     '''This function checks for prime number'''
