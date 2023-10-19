@@ -1,6 +1,3 @@
-put("Enter a number to check if it's prime or not:"))
-    checkP(userInput)
-
 def checkPrime(number):
     '''This function checks for prime number'''
     isPrime = False
