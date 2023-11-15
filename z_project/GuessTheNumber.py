@@ -1,6 +1,3 @@
-
-
-Answer:
 import random
 
 def guess():
